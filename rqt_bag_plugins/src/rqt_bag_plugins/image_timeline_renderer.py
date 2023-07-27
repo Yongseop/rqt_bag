@@ -42,7 +42,7 @@ if (
 ):
     sys.modules['PyQt5'] = None
 from PIL import Image
-from PIL.ImageQt import ImageQt
+from PIL.ImageQt import Image as ImageQt
 
 from rqt_bag import TimelineCache, TimelineRenderer
 
