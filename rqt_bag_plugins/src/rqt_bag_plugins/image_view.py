@@ -40,7 +40,7 @@ if (
     'PyQt5' in sys.modules
 ):
     sys.modules['PyQt5'] = None
-from PIL.ImageQt import ImageQt
+from PIL import ImageQt
 
 from rqt_bag import TopicMessageView
 from rqt_bag_plugins import image_helper
